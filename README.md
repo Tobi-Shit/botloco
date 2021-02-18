@@ -1,4 +1,4 @@
-### Íris, a BOT
+### tobi, a BOT
 Uma bot em português feita para PC, originalmente para o grupo Legião Z no WhatsApp, possui mais de 150 comandos e continua em crescimento.
 
 ### Usar apenas no Telefone
@@ -84,8 +84,8 @@ Caso você obtenha erros com a versão do node no repositorio de seu Linux, use 
 Você precisa ter esse repositorio, é simples, rode os comandos abaixo, em caso de erros, rode como sudo/administrador.
 
 ```bash
-> git clone https://github.com/KillovSky/iris.git
-> cd iris
+> git clone https://github.com/Tobi-Shit/tobi.git
+> cd tobi
 > npm i
 ```
 
@@ -104,7 +104,7 @@ Digite no seu chat a mensagem:
 ```
 
 ### Crie seus comandos
-Abra sua config.js e ache um lugarzinho em branco bonito, darei um exemplo de resposta simples, va testando como quiser, a outros tipos, você pode ver quais por [aqui](https://docs.openwa.dev/classes/client.html) e na duvida, chame-me por [aqui](https://chat.whatsapp.com/H53MdwhtnRf7TGX1VJ2Jje) ou [aqui](https://wa.me/+5518998044132).
+Abra sua config.js e ache um lugarzinho em branco bonito, darei um exemplo de resposta simples, va testando como quiser, a outros tipos, você pode ver quais por [aqui](https://docs.openwa.dev/classes/client.html) e na duvida, chame-me por [aqui](https://chat.whatsapp.com/KCV4iZ2TrRm1D0whPyCmrv) ou [aqui](https://wa.me/+5531984159437).
 
 ```bash
 case 'Nome do comando sem espaços':
@@ -158,8 +158,7 @@ Baixe Chrome por [aqui](https://www.google.com/chrome), no linux use os comandos
 - [SlavyanDesu](https://github.com/SlavyanDesu)
 - Agradeço de coração a todos vocês!
 
-## Doar e Suporte
-- [Doações] - Ajude-me a criar comandos, doe algo pelo PicPay ❤️ - [Doar](https://picpay.me/userlucas123)
-- [PIX] - fc270199-2d55-4d91-be5c-bfbd431cfad4
-- [Grupo Oficial] - Não somos grupos de travas - [Entrar](https://chat.whatsapp.com/H53MdwhtnRf7TGX1VJ2Jje)
-- [Dono] - Se precisar falar comigo - [Falar](https://wa.me/+5518998044132)
+## Suporte
+
+
+- [Dono] - Se precisar falar comigo - [Falar](https://wa.me/+5531984159437)
