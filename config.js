@@ -1,6 +1,7 @@
+
 /*
-* Recodado por Lucas R.
-* Legião Z é o melhor, to famoso pessoal!
+* Recodado por biel.
+* Tropa da Mafia é o melhor, to famoso pessoal!
 * Reprodução autorizada MAS sem remover os creditos do criador deste BOT!
 */
 
@@ -584,10 +585,10 @@ module.exports = kconfig = async (kill, message) => {
 			break
 			
 			
-		case 'legiao':
+		case 'mafia':
 			if (mute || pvmte) return console.log('Ignorando comando [Silence]')
 			if (isGroupMsg) return kill.reply(from, 'Pode ser que esse grupo não permita links, então use esse comando no PV okay?', id)
-			await kill.sendLinkWithAutoPreview(from, 'https://chat.whatsapp.com/H53MdwhtnRf7TGX1VJ2Jje', 'Que otimo que se interessou pelo Legião Z!\nAi está nosso grupo!', id)
+			await kill.sendLinkWithAutoPreview(from, 'https://chat.whatsapp.com/KCV4iZ2TrRm1D0whPyCmrv', 'Que otimo que se interessou pelo Tropa da Mafia!\nAi está nosso grupo!', id)
 			break
 			
 			
@@ -1089,7 +1090,7 @@ module.exports = kconfig = async (kill, message) => {
 			if (mute || pvmte) return console.log('Ignorando comando [Silence]')
 			if (args.length == 0) return kill.reply(from, 'Faltou a frase para ser adicionada.', id)
 			fs.appendFile('./lib/config/reply.txt', `\n${body.slice(10)}`)
-			await kill.reply(from, 'Frase adicionada a Íris.', id)
+			await kill.reply(from, 'Frase adicionada ao tobi.', id)
 			break
 
 
@@ -1169,7 +1170,7 @@ module.exports = kconfig = async (kill, message) => {
 			break
 			
 
-        case 'iris':
+        case 'tobi':
 			if (mute || pvmte) return console.log('Ignorando comando [Silence]')
 			try {
 				const iris = await axios.get(`http://simsumi.herokuapp.com/api?text=${body.slice(6)}&lang=pt`)
